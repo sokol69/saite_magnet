@@ -21,5 +21,51 @@ a:hover {
 
 .wrapper {
   width: 100%;
-  height: 100%;
   background-image: url(../img/back.png); }
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 100px; }
+
+.nav__item {
+  display: inline-block;
+  padding-left: 50px; }
+
+.nav__link {
+  color: #000;
+  font-weight: bold;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s; }
+  .nav__link:hover {
+    color: #fff; }
+
+.events {
+  padding-top: 100px;
+  padding-bottom: 80px; }
+
+.music {
+  max-width: 960px;
+  margin: 0 auto; }
+  .music__list {
+    margin: 0;
+    padding: 50px 0 0 0; }
+  .music__item {
+    padding-bottom: 30px;
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1); }
