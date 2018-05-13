@@ -72,17 +72,19 @@ ul {
   display: inline-block;
   vertical-align: middle; }
   .more__text {
-    vertical-align: middle; }
+    vertical-align: middle;
+    font-weight: 200; }
   .more__right {
     font-size: 36px;
-    vertical-align: middle; }
+    vertical-align: middle;
+    font-weight: 200; }
 
 .music {
   max-width: 960px;
   margin: 0 auto; }
   .music__list {
     margin: 0;
-    padding: 50px 0 0 0; }
+    padding: 40px 0 0 0; }
   .music__item {
     padding-bottom: 30px;
     -webkit-filter: grayscale(1);
@@ -112,15 +114,95 @@ ul {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center; }
   .artist__name {
     font-weight: bold;
-    vertical-align: middle; }
+    vertical-align: middle;
+    font-size: 20px; }
   .artist__divider {
     display: inline-block;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 30px; }
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 40px;
+    font-weight: 200; }
+
+.anonce {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 70px; }
+  .anonce__title {
+    padding-bottom: 40px; }
+  .anonce__list {
+    padding-bottom: 20px; }
+  .anonce__img-wrap {
+    max-width: 760px;
+    margin: 0 auto; }
+  .anonce__buttons {
+    text-align: center;
+    max-height: 80px; }
+  .anonce__btn {
+    font-size: 90px;
+    font-weight: 200;
+    padding: 0 40px;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    cursor: pointer; }
+    .anonce__btn:hover {
+      color: #fff; }
+  .anonce__more-wrap {
+    text-align: right; }
+
+.photo {
+  padding-top: 70px; }
+  .photo__title {
+    padding-left: 120px;
+    padding-bottom: 40px; }
+  .photo__list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .photo__name {
+    padding-top: 30px;
+    padding-left: 35px;
+    font-size: 20px; }
+  .photo__date {
+    padding-top: 10px;
+    padding-right: 80px;
+    text-align: right;
+    font-weight: 200; }
+  .photo__more-wrap {
+    padding-top: 20px;
+    padding-right: 120px;
+    text-align: right; }
+
+.video {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 70px; }
+  .video__title {
+    padding-bottom: 40px; }
+  .video__wrap {
+    max-width: 860px;
+    margin: 0 auto; }
+  .video__more-wrap {
+    padding-top: 50px;
+    text-align: right; }
+
+.contact {
+  max-width: 960px;
+  margin: 0 auto;
+  min-height: 500px;
+  padding-top: 70px; }
