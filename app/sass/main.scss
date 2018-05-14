@@ -141,7 +141,15 @@ ul {
 		padding-bottom: 40px;
 	}
 	&__list {
-		padding-bottom: 20px;
+		position: relative;
+		max-width: 760px;
+		margin: 0 auto;
+	}
+	&__item {
+		transition: 0.2s;
+		&:hover {
+			filter: grayscale(1);
+		}
 	}
 	&__img-wrap {
 		max-width: 760px;
@@ -152,6 +160,8 @@ ul {
 		max-height: 80px;
 	}
 	&__btn {
+		position: absolute;
+		bottom: -120px;
 		font-size: 90px;
 		font-weight: 200;
 		padding: 0 40px;
@@ -160,8 +170,15 @@ ul {
 		&:hover {
 			color: #fff;
 		}
+		&--prev {
+			left: 35%;
+		}
+		&--next {
+			right: 35%;
+		}
 	}
 	&__more-wrap {
+		padding-top: 120px;
 		text-align: right;
 	}
 }
@@ -211,7 +228,7 @@ ul {
 	}
 }
 
-.contact {
+.contacts {
 	max-width: 960px;
 	margin: 0 auto;
 	min-height: 500px;

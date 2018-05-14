@@ -30,7 +30,6 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
 
 gulp.task('scripts', function() {
 	return gulp.src([ // Берем все необходимые библиотеки
-		'app/libs/modernizr/modernizr.js',// Берем Modernizr
 		'app/libs/jquery/jquery-3.3.1.min.js',
 		'app/libs/jquery/jquery.mousewheel-3.0.6.pack.js',
 		'app/libs/jquery/jquery.touchSwipe.min.js'// Берем jQuery
