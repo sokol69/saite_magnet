@@ -63,6 +63,34 @@ ul {
 .events {
 	padding-top: 100px;
 	padding-bottom: 80px;
+	&__slider {
+		max-width: 1190px;
+		margin: 0 auto;
+	}
+	&__link {
+		display: inline-block;
+		position: relative;
+		transition: all 0.2s;
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+	&__text {
+		position: absolute;
+		top: 30px;
+		left: 145px;
+		font-size: 60px;
+		font-weight: 200;
+		color: #fff;
+	}
+	&__place {
+		display: block;
+	}
+	&__more {
+		position: absolute;
+		right: 0;
+		font-size: 12px;
+	}
 }
 
 .title {

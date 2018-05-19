@@ -1,5 +1,19 @@
 "use strict";
-/*Slick slider*/
+/*Slick sliders*/
+if ($('.js-events__slider').length > 0 ) {
+	$('.js-events__slider').slick({ 
+		centerMode: true, 
+		centerPadding: '0',
+		slidesToShow: 1,
+		variableWidth: true,
+		dots: false,
+		arrows: false,
+		draggable: true,
+		centerMode: true,
+		infinite: true,
+	});
+};
+
 if ($('.js-anonceSlider').length > 0 ) {
 		$('.js-anonceSlider').slick({ 
 			centerMode: true, 
@@ -16,6 +30,8 @@ if ($('.js-anonceSlider').length > 0 ) {
 		});
 };
 
+
+/*Navigation scrol*/
 var toScroll = function(id) {
 	$(id).on("click", "a", function (event) {
 		event.preventDefault();
